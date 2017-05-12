@@ -13,6 +13,10 @@
 
 /*Top Menu*/
 
+.logo{
+height: 120px;
+}
+
 nav.bt-menu  ul li {
 	font: bold 18px/26px 'Open Sans', sans-serif;
 	color: #848282;
@@ -235,7 +239,7 @@ border-style: ridge;
 
 
 #side-menu-div{
-    top: 362px;                                                
+    top: 377px;                                                
     width:12%;
     z-index: 2;
     position: absolute;   
