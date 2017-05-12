@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" charset="utf-8">
+
+    <title>Home</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <!--<script src="js/jquery.equalheights.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/camera.js"></script>
+    <script src="js/snap.svg-min.js"></script>-->
+
+    <script src="ScatterPlot.js"></script>
+    <script src="LinearReg.js"></script>
+    <script src="Func.js"></script>
+    <script src="./Analytics/SPdata.js"></script>
+
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="highcharts/code/highcharts-3d.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="http://rawgithub.com/phpepe/highcharts-regression/master/highcharts-regression.js?7"></script>
+    </head>
+
+<body>
+    <div id="side-menu-div">
+        <ul class="side-menu">
+            <form id="IndustriesFRM">
+                <li class="dropdownlist" id="sidemenuelist1">
+                    <button class="dropbtn">Industries</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <input class="selectmult" type="text" placeholder="Search.." id="myInput" onkeyup="Func.filterFunction()">
+                        <select multiple class="selectmult" id="selectInd">
+                        <option name="industry" value='10'>Energy</option>
+                        <option name="industry" value='15'>Material</option>
+                        <option name="industry" value='20'>Industrial and Transportation</option>
+                        <option name="industry" value='25'>Consumer Discretionary</option>
+                        <option name="industry" value='30'>Consumer Staples (food, drug, household products) Communications, Electric, Gas and Sanitary service</option>
+                        <option name="industry" value='35'>Health Care</option>
+                        <option name="industry" value='40'>Finance, Insurance, Real Estate, and Banking companies</option>
+                        <option name="industry" value='45'>IT</option>
+                        <option name="industry" value='50'>Telecommunications</option>
+                        <option name="industry" value='55'>Utilities</option>
+                          </select>
+                    </div>
+                </li>
+                <li class="dropdownlist" id="sidemenuelist2"><button class="dropbtn">Holding Period</button>
+                    <div id="myDropdown_3" class="dropdown-content">
+                        <select class="selectmult" id="selectHoldingP" size="2">
+                            <option name="HoldingP" value="0"> Year Holding Period</option>
+                            <option name="HoldingP" value="1">2 Year Holding Period</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="dropdownlist" id="sidemenuelist3"><button class="dropbtn">Market Cap (demo)</button>
+                    <div id="myDropdown_2" class="dropdown-content">
+                        <select multiple class="selectmult" <option name="MarkCap" value="Top 100>">Top 100</option><option name="MarkCap" value="Top 500">Top 500</option></select>
+                    </div>
+                </li>
+                <li class="dropdownlist" id="sidemenuelist4"><button class="dropbtn">Years</br>(demo)</button>
+                    <div id="myDropdown_3" class="dropdown-content">
+                        <input class="selectmult" type="text" placeholder="Date_Range" id="myInput">
+                    </div>
+                </li>
+            </form>
+            <li class="dropdownlist" id="sidemenuelist5"><button class="dropbtn">Run Analysis</button>
+                <div id="myDropdown_3" class="dropdown-content">
+                    <button onclick="Func.analysis(this.value)" value="0" class="AnalysisChoiseBTN">F-score / Returns</button>
+                    <button onclick="Func.analysis(this.value)" value="1" class="AnalysisChoiseBTN">&Delta; F-score / Returns</button>
+                    <button onclick="Func.analysis(this.value)" value="2" class="AnalysisChoiseBTN">&sum; F-score / Returns (demo)</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="slogan" style="height:30px">
+                    Strategy Planing <br>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <script>
+
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

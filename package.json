@@ -1,0 +1,17 @@
+{
+  "name": "lgoedgefund",
+  "version": "1.0.0",
+  "main": "ScatterPlot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shai",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "get-form-data": "^1.2.5",
+    "highcharts": "^5.0.11",
+    "sqlite": "^2.7.0",
+    "sqlite3": "^3.1.8"
+  }
+}

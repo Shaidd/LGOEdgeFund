@@ -1,6 +1,6 @@
 
 .menu_block {
-	height: 31px;
+	height: 56px;
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 43px;
@@ -10,12 +10,15 @@
 	margin-bottom: 46px;
 }
 
+
+/*Top Menu*/
+
 nav.bt-menu  ul li {
 	font: bold 18px/26px 'Open Sans', sans-serif;
 	color: #848282;
 }
 nav.bt-menu  ul li:first-child+li+li {
-	margin-right: 120px;
+	margin-right: 180px;
 }
 
 .bt-overlay {
@@ -24,10 +27,6 @@ nav.bt-menu  ul li:first-child+li+li {
 
 nav.bt-menu  ul li a:hover, nav ul li.current  {
 	color: #242424;
-}
-
-.container {
-	padding: 80px;
 }
 
 .bt-menu {
@@ -173,7 +172,7 @@ nav.bt-menu  ul li a:hover, nav ul li.current  {
 }
 
 .bt-menu.bt-menu-open ul {
-	height: 31px;
+	height: 62px;
 	-webkit-transition: none;
 	transition: none;
 }
@@ -212,3 +211,125 @@ nav.bt-menu  ul li a:hover, nav ul li.current  {
 	display: none;
 }
 
+.container {
+	padding: 80px;
+}
+
+
+
+
+
+
+#container {
+height: 400px;
+min-width: 310px;
+max-width: 800px;
+margin: 0 auto;
+border-width: 5px;
+border-style: ridge;
+}
+
+
+/*Side Menu*/
+
+
+
+#side-menu-div{
+    top: 362px;                                                
+    width:12%;
+    z-index: 2;
+    position: absolute;   
+}
+
+.side-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+}
+
+.dropdownlist button {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.dropdownlist button.active {
+    background-color: #4CAF50;
+    color: #4CAF50;
+}
+
+.dropdownlist button:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+/*Drop Down Menu*/
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+    margin-top: -46px;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+
+
+
+.dropdownlist:hover .dropdown-content {
+    display: block;
+}
+
+
+/*Drop Down Button*/
+
+.dropdownlist .dropbtn {
+    font-size: 16px;
+    width: 100%;    
+    border: none;
+    outline: none;
+    color: Black;
+    padding: 14px 16px;
+    background-color: transparent;
+}
+
+/*.show {display:block;}*/
+
+
+/*Drop Down Content*/
+
+.selectmult{
+    width: 100%;
+}
+
+.dropdown-content div {
+    width: 100%;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: green; /* no bg color;*/
+}
+
+.AnalysisChoiseBTN {
+width : 100%;
+
+}

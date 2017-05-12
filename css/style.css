@@ -1,8 +1,8 @@
 /**/
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:300);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:700);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(http:////fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(http:////fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http:////fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(http:////fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 /*       'Open Sans', sans-serif     */
 @import "../css/reset.css";
@@ -274,7 +274,7 @@ h1 a {
 	display: inline-block;
 	overflow: hidden;
 	width: 162px;
-	height: 48px;
+	height:91px;
 	text-indent: -999px;
 	transition: 0s ease;
 
@@ -287,7 +287,7 @@ h1 a img {
 }
 
 .slogan {
-	padding-top: 90px;
+	padding-top: 50px;
 	padding-bottom: 56px;
 	text-align: center;
 	color: #585858;
@@ -309,8 +309,13 @@ h1 a img {
 
 
 .content {
+    position: absolute;
 	padding-bottom: 156px;
-}
+	padding-top: 122px;
+	padding-left: none;
+	padding-right: none;
+    width: 100%;
+    }
 
 .page1 .content {
 	padding-top: 99px;
