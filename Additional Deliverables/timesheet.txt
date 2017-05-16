@@ -1,0 +1,66 @@
+1.001 – Final Project Time Log – Jeremy Hare
+ and Shai Dekel Overall time logged on project - 53.5 hours X 2 student = 107 hours!
+4/25/17 – Total Time: 7 hours
+Start: 8:45AM   End: 11:30AM
+Brainstorming session for structure of analysis and visual input
+
+Start: 6:30PM   End: 10:45PM
+Researching Piotroski F-Score formation
+-Determined he has a buy-and-hold for one year and re-evaluate based on F-score only strategy
+-We will analyze differentiate a few different strategies on different types of regression
+Started messing with visualization
+-Performed a basic review of the circle graphics that was performed in HW4
+-Updated the “data” to have industry examples linked to specific colors
+-Will update to have “on-click” functionality to show more information associated with the F-Scores, industries, and specific companies
+
+4/26/17 – Total Time: 2.5 hours
+Start: 8:30AM   End: 11AM
+Video editing and uploading
+
+4/27/17 – Total Time: 2 hours
+Start: 8:30AM   End: 9AM
+Start: 3PM   End: 4:30PM
+Database analysis
+
+5/1/17 – Total Time: 2.5 hours
+Start: 9:30AM   End: 11AM
+Database analysis and linear regression 
+
+5/2/17 – Total Time: 6.5 hours
+Start: 9AM   End: 11AM
+Start: 5PM   End: 930PM
+Finalized database! Woohoo!!!
+Determined inputs to model from user interface
+Begin filtering through data with html and js files
+
+5/4/17 – Total Time: 5 hours
+Start: 9AM End: 11AM
+Start: 2PM End: 5PM
+Further outputs required in database (ie not perfectly finalized)
+
+5/5/17 – Total Time: 3 hours
+Start: 9AM End: 11AM
+Start: 1PM End: 2PM
+Linear regression in R – determined that there is no significant link between F-Score and stock returns based on the dataset that we pulled
+
+5/7/17 – Total Time: 3 hours
+Start: 10PM End: 1AM
+Strong late night coding, falling asleep on keyboard
+
+5/8/17 – Total Time: 5 hours
+Start: 9AM End: 12PM
+Start: 10PM End: 12AM
+Late night coding some basic data run through
+
+5/9/17 – Total time – 4 hours
+Coding galore – calculating basic averages for data, separated by industry codes 
+
+5/10/17 – Total time – 2 hours
+Filtering data for input functions – Anuj helped a crazy amount of time saved by him!
+
+5/11/17 – Total time – 4 hours
+Integration between UI and database / analysis
+
+5/12/17 – Total time – 7 hours
+Finalizing integration between modules
+Filming / editing video (4 hours!)
